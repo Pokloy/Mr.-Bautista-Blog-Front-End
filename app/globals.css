@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Patrick+Hand&family=Schoolbell&display=swap');
+
+@layer base {
+  :root {
+    --background: 43 100% 96%;
+    --foreground: 30 10% 20%;
+    --card: 0 0% 100%;
+    --card-foreground: 30 10% 20%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 30 10% 20%;
+    --primary: 30 10% 20%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 30 10% 20%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 30 10% 20%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 30 10% 20%;
+    --radius: 0.5rem;
+
+    --mint-green: #D1FAE5;
+    --sky-blue: #E0F2FE;
+    --soft-yellow: #FEF9C3;
+    --coral: #FCA5A5;
+    --cream: #FEF7ED;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-[#FEF7ED] text-foreground;
+    background-image:
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0, 0, 0, 0.02) 2px,
+        rgba(0, 0, 0, 0.02) 4px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 2px,
+        rgba(0, 0, 0, 0.02) 2px,
+        rgba(0, 0, 0, 0.02) 4px
+      );
+    background-size: 100% 100%;
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  .font-handwriting {
+    font-family: 'Caveat', cursive;
+  }
+
+  .font-hand {
+    font-family: 'Patrick Hand', cursive;
+  }
+
+  .font-school {
+    font-family: 'Schoolbell', cursive;
+  }
+
+  .paper-texture {
+    background-color: #FEF7ED;
+    background-image:
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0, 0, 0, 0.03) 2px,
+        rgba(0, 0, 0, 0.03) 4px
+      );
+  }
+
+  .notebook-lines {
+    background-image:
+      repeating-linear-gradient(
+        transparent,
+        transparent 31px,
+        #E0F2FE 31px,
+        #E0F2FE 32px
+      );
+    background-size: 100% 32px;
+  }
+
+  .dashed-border {
+    border: 2px dashed currentColor;
+    border-spacing: 5px;
+  }
+}
