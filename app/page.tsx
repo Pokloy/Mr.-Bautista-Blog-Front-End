@@ -64,7 +64,7 @@ export default function Home() {
                 Every day is a new opportunity to learn, grow, and have fun!
               </p>
               <div className="mt-4 pt-4 border-t-2 border-dashed border-gray-400">
-                <p className="text-xl font-bold">- Mr. Bautista ✨</p>
+                <p className="text-xl font-bold">- Mr. Ryan Bautista, LPT ✨</p>
               </div>
             </StickyNote>
           </motion.div>

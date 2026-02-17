@@ -96,13 +96,20 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                {/* <div className="flex items-start gap-4">
+               <div className="flex items-start gap-4">
                   <Mail className="w-6 h-6 text-gray-800 flex-shrink-0 mt-1" />
                   <div>
                     <p className="font-bold text-gray-800">Email</p>
-                    <p className="text-gray-700">ms.smith@sunshineschool.edu</p>
+                    <p className="text-gray-700">ricrayanb@gmail.com</p>
+                    <p className="font-bold text-gray-800">Office Email</p>
+                    <p className="text-gray-700">ricrayan.bautista@deped.gov.ph</p>
                   </div>
-                </div> */}
+
+                  {/* <div>
+                    <p className="font-bold text-gray-800">Office Email</p>
+                    
+                  </div> */}
+                </div> 
 
                 <div className="flex items-start gap-4">
                   <Clock className="w-6 h-6 text-gray-800 flex-shrink-0 mt-1" />

@@ -4,7 +4,7 @@ import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
-  title: "Mr. Ryan Bautista Blog",
+  title: "Mr. Bautista Blog",
   description: 'A whimsical digital scrapbook of teaching adventures, classroom stories, and educational inspiration',
   openGraph: {
     images: [
