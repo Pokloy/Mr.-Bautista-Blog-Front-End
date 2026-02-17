@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: '/img1.jpg',
+        url: '/img11.jpg',
       },
     ],
   },

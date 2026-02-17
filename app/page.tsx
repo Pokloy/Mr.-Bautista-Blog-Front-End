@@ -38,8 +38,8 @@ export default function Home() {
               <WashiTape color="mint" rotation={-2} width="w-64" />
             </div>
             <PolaroidPhoto
-              src="/img1.jpg"
-              alt="Teacher at blackboard"
+              src="/img11.webp"
+              alt="Mr. Ryan Bautista, LPT"
               caption="Mr. Bautista- Teaching since 2015"
               rotation={-3}
               className="mx-auto max-w-md"
